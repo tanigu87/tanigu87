@@ -1,0 +1,5 @@
+}
+bool Graph_DG::topological_sort_by_dfs() {
+    stack<string> result;
+    int i;
+    bool * visit = new bool[this->vexnum];
