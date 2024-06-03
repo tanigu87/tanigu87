@@ -1,0 +1,10 @@
+                s.push(temp->adjvex);
+            }
+            temp = temp->next;
+        }
+        ++count;
+    }
+    if (count == this->vexnum) {
+        cout << endl;
+        return true;
+    } 
